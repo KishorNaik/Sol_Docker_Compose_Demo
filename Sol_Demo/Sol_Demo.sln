@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{C6198C5C-742A-47D0-ADBB-BDA8AF0CF89E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B32629A5-A22F-45AD-9B9A-37C9847759E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "WebMVC\WebMVC.csproj", "{C3D6AC95-274A-4DEB-8D8A-5FAC5D8E19EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6198C5C-742A-47D0-ADBB-BDA8AF0CF89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6198C5C-742A-47D0-ADBB-BDA8AF0CF89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6198C5C-742A-47D0-ADBB-BDA8AF0CF89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6198C5C-742A-47D0-ADBB-BDA8AF0CF89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32629A5-A22F-45AD-9B9A-37C9847759E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32629A5-A22F-45AD-9B9A-37C9847759E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32629A5-A22F-45AD-9B9A-37C9847759E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32629A5-A22F-45AD-9B9A-37C9847759E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D6AC95-274A-4DEB-8D8A-5FAC5D8E19EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D6AC95-274A-4DEB-8D8A-5FAC5D8E19EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D6AC95-274A-4DEB-8D8A-5FAC5D8E19EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D6AC95-274A-4DEB-8D8A-5FAC5D8E19EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66777F83-D98A-4784-9BA5-3EC185B96E09}
+	EndGlobalSection
+EndGlobal
